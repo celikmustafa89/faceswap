@@ -94,7 +94,7 @@ class _Backend():  # pylint:disable=too-few-public-methods
         print("First time configuration. Please select the required backend")
         while True:
             #selection = input("1: AMD, 2: CPU, 3: NVIDIA: ")
-            selection = 3
+            selection = "3"
             if selection not in ("1", "2", "3"):
                 print("'{}' is not a valid selection. Please try again".format(selection))
                 continue
